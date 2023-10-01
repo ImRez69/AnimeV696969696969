@@ -1,0 +1,222 @@
+@font-face{
+    font-family: "Vazir-Light";
+    src: local("Vazir-Light"),
+    url(./Font/vazir-font-v16.1.0/Vazir-Light.ttf) format(truetype),
+    url(./Font/vazir-font-v16.1.0/Vazir-Light.ttf) format(woff2);
+}
+
+body{
+    font-family:"Vazir-Light","Vazir-Bold";
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #061b2e;
+    color: #B388FF;
+}
+
+
+.site-logo{
+    width: 10%;
+}
+
+.search{
+    color: #ffffff;
+    outline: 2px solid #0e59ca;
+    outline-offset: -2px;
+    text-align: left;
+    border-radius: 2px;
+    background-color: #0e3775;
+}
+
+.search:focus{
+    outline: 2px solid #0e59ca;
+    background-color: #0e385f;
+    outline-offset: -2px;
+    border-radius: 4px;
+}
+
+.search-label{
+    color: #4FC3F7;
+}
+
+.search-label:hover{
+    color: #B2DFDB;
+}
+
+.header{
+    width: 425px;
+    border-top: 2px solid #0e59ca;
+    border-bottom: 2px solid #0e59ca;
+    padding: 10px;
+    border-radius: 6px;
+    word-spacing: 5px;
+    display: inline-block;
+    position: relative;
+    bottom: 65px;
+    margin-left: 740px;
+}
+
+.header-link:hover{
+    color: #B2DFDB;
+
+}
+
+.header-link{
+    text-shadow: 2px 2px 2px #37474F;
+    text-decoration: none;
+    color: #4FC3F7;
+}
+
+.main-anime{
+    display: block;
+    margin: 10px 10px 30px 10px;
+    border: 6px solid #084170;
+    border-radius: 30px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    text-align:justify;
+    text-shadow: 2px 2px 2px #37474F;
+    text-transform: capitalize;
+    font-size: 1em;
+    color: #B2DFDB;
+}
+
+.h2{
+    text-shadow: 2px 2px 5px #37474F;
+    color: #4FC3F7;
+    text-decoration: none;
+}
+
+.h2:hover{
+    color: #B2DFDB;
+}
+
+.anime-logo{
+    width: 15%;
+    height: auto;
+    border-radius: 12px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+.imdb{
+    border-top: 2px solid ;
+    border-bottom: 2px solid ;
+    margin-right: 20px;
+    padding: 4px;
+    border-radius: 10px;
+    color: #4FC3F7;
+}
+
+.imdb:hover{
+    color: #00b7ff;
+}
+
+.imdb-img:hover{
+   vertical-align: top;
+}
+
+.rotten-tomatoes{
+    border-top: 2px solid ;
+    border-bottom: 2px solid ;
+    margin-right: 20px;
+    padding: 4px;
+    border-radius: 10px;
+    color: #4FC3F7;
+}
+
+.rotten-tomatoes:hover{
+    color: #00b7ff;
+}
+
+.rotten-img:hover{
+    vertical-align: top;
+}
+
+.no-line-link{
+    text-decoration:none
+}
+
+
+.language{
+    border-top: 2px solid ;
+    border-bottom: 2px solid ;
+    margin-right: 20px;
+    padding: 4px;
+    border-radius: 10px;
+    color: #4FC3F7;
+}
+
+.language:hover{
+    color: #00b7ff;
+}
+
+.from{
+    border-top: 2px solid ;
+    border-bottom: 2px solid ;
+    margin-right: 20px;
+    padding: 4px;
+    border-radius: 10px;
+    color: #4FC3F7;
+}
+
+.from:hover{
+    color: #00b7ff;
+}
+
+.director{
+    border-top: 2px solid ;
+    border-bottom: 2px solid ;
+    padding: 4px;
+    border-radius: 10px;
+    color: #4FC3F7;
+}
+
+.director:hover{
+    color: #00b7ff;
+}
+
+.imdb-img{
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    vertical-align: sub;
+}
+
+.rotten-img{
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    vertical-align: sub;
+}
+
+.main-article{
+    direction: rtl;
+}
+
+.download-link{
+    text-shadow: 2px 2px 2px #37474F;
+    text-decoration: none;
+    color: #4FC3F7;
+}
+
+.download-link:hover{
+    color: #c9deff;
+}
+
+.footer{
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+
+.span-address{
+    border-top: 2px  solid #186ceb;
+    border-bottom: 2px  solid #186ceb;
+    border-radius: 5px;
+    padding: 8px;
+    margin-bottom: 100px;
+    color: #4FC3F7;
+}
+
